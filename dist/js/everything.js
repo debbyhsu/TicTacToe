@@ -32321,7 +32321,7 @@ var game;
         return {};
     }
     function updateUI(params) {
-        log.info("Game got updateUI:", params);
+        log.info("Game got updateUI ... <<changed here, hello!>>:", params);
         game.didMakeMove = false; // Only one move per updateUI
         game.currentUpdateUI = params;
         clearAnimationTimeout();
